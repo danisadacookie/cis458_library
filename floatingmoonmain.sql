@@ -135,11 +135,6 @@ INSERT INTO Item (itemID, title, category, author) VALUES
 ('503','Space Oddity','music','David Bowie'),
 ('504','Heroes','music','David Bowie'),
 ('505','Starman','music','David Bowie'),
-('506','Why didnt we riot?','ebook','Issac J. Bailey'),
-('507','My vanishing country : a memoir','ebook','Bakari Sellers'),
-('508',' Only words','ebook','Catharine MacKinnon'),
-('509','The high desert','ebook','James Spooner'),
-('510','Academic outsider : stories of exclusion and hope','ebook','Victoria Reyes');
 
 INSERT INTO StreamItem value
 (501, 180),
@@ -147,13 +142,6 @@ INSERT INTO StreamItem value
 (503, 200),
 (504, 190),
 (505, 190);
-
-INSERT INTO BorrowItem value
-(506, 5),
-(507, 5),
-(508, 5),
-(509, 5),
-(510, 5);
 
 INSERT INTO Donation (donationID, amount, date, paymentMethod, memberID, staffID)VALUES
 ('81','100','2025-02-01','check','01','15'),
@@ -163,11 +151,11 @@ INSERT INTO Donation (donationID, amount, date, paymentMethod, memberID, staffID
 ('85','100','2025-02-01','check','04','15');
 
 INSERT INTO Reserve VALUES
-(0101, '2025-01-02','2025-01-02','2025-03-11', 506, '031'),
-(0102, '2025-01-02','2025-01-02','2025-02-01', 507, '032'),
-(0103, '2025-01-02','2025-01-02','2025-03-01', 508, '033'),
-(0104, '2025-01-02','2025-01-02','2025-02-15', 509, '051'),
-(0105, '2025-01-02','2025-01-02','2025-02-28', 510, '052');
+(0101, '2025-01-02','2025-01-02','2025-03-11', 501, '031'),
+(0102, '2025-01-02','2025-01-02','2025-02-01', 502, '032'),
+(0103, '2025-01-02','2025-01-02','2025-03-01', 503, '033'),
+(0104, '2025-01-02','2025-01-02','2025-02-15', 504, '051'),
+(0105, '2025-01-02','2025-01-02','2025-02-28', 505, '052');
 
 
 -- 1. Update the price as 5 and duration as 05/05/2025 for all subscription --
